@@ -1,0 +1,35 @@
+[XRP Provider][txCreate] error signing transaction: {
+    "name": "ValidationError",
+    "data": {
+        "decoded": {
+            "TransactionType": "Payment",
+            "Flags": 0,
+            "Sequence": 69,
+            "DestinationTag": 0,
+            "LastLedgerSequence": 71909667,
+            "Amount": {
+                "value": "27",
+                "currency": "53686962614E4654000000000000000000000000",
+                "issuer": "rnRXAnVZTyattZXEpKpgTyvdm17DpjrzSZ"
+            },
+            "Fee": "12",
+            "Account": "rbYJCEJD2FGAdHrn8u6AufcUaBRfv8e3H",
+            "Destination": "rL34DRBh1wAHTfCtiEdi4bbU4vbfPfELti"
+        },
+        "tx": {
+            "TransactionType": "Payment",
+            "Account": "rbYJCEJD2FGAdHrn8u6AufcUaBRfv8e3H",
+            "Amount": {
+                "currency": "53686962614E4654000000000000000000000000",
+                "value": "27.000000000000000000000000000000",
+                "issuer": "rnRXAnVZTyattZXEpKpgTyvdm17DpjrzSZ"
+            },
+            "Destination": "rL34DRBh1wAHTfCtiEdi4bbU4vbfPfELti",
+            "DestinationTag": 0,
+            "Flags": 0,
+            "Sequence": 69,
+            "Fee": "12",
+            "LastLedgerSequence": 71909667
+        }
+    }
+}
